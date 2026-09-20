@@ -1,0 +1,15 @@
+"""
+Шаблон личных настроек. Скопируйте этот файл как local_config.py
+(без .example) рядом с ним и впишите свои значения.
+
+local_config.py в git не попадает (см. .gitignore) — это специально,
+чтобы id таблицы и путь к ключу не утекли в публичный репозиторий.
+"""
+
+# id таблицы — кусок ссылки между /d/ и /edit:
+# https://docs.google.com/spreadsheets/d/ЭТОТ_КУСОК/edit
+SPREADSHEET_ID = "впишите_сюда_id_таблицы"
+
+# путь к скачанному JSON-ключу сервисного аккаунта (см. README, раздел
+# "Доступ к Google Sheets")
+SERVICE_ACCOUNT_FILE = "service_account.json"
