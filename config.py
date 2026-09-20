@@ -59,9 +59,7 @@ SUBJECT_OVERRIDES = {
 }
 
 # Google Sheets
-# SPREADSHEET_ID = "" # id из ссылки на таблицу
 WORKSHEET_NAME = "Расписание"
-# SERVICE_ACCOUNT_FILE = "" # путь к ключу сервисного аккаунта
 
 try:
     from local_config import SERVICE_ACCOUNT_FILE, SPREADSHEET_ID
